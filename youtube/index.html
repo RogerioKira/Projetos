@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>You</title>
+    <link rel="stylesheet" href="https:cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <header class="fixed top-0 right-0 left-0 bg-white z-50 px-4 py-2 flex items-center justify-between border-b border-gray-200">
+        <div class="flex items-center gap-4">
+
+            <button class="p-2 hover:bg-gray-100 cursor-pointer">
+                <i class="ri-menu-fill text-xl"></i>
+            </button>
+
+            <div class="flex items-center gap-1 cursor-pointer">
+                <i class="ri-youtube-fill text-3xl text-red-600"></i>
+                <span class="text-xl font-semibold">YouTube</span>
+                <span class="text-[10px] text-gray-600">BR</span>
+            </div>
+        </div>
+        <form class="flex-1 max-w-2xl mx-4 flex">
+            <input type="text" placeholder="pesquisar"
+            class="flex-1 px-4  py-2 border border-gray-300 rounded-l-full rounded-r-0">
+            <button class="px-6 py-4 bg-gray-50 border border-l-0 border-gray-300 rounded-r-full">
+                <i class="ri-search-line"></i>
+            </button>
+            <button class="ml-2 px-4 py-2 bg-gray-100 rounded-full hover:bg-gray-200">
+                <i class="ri-mic-line"></i>
+            </button>
+        </form>
+
+        <div class="flex items-center gap-2">
+            <button class="p-2 hover:bg-gray-100 rounded-full">
+                <i class="ri-video-add-line text-xl"></i>
+            </button>
+            <button class="p-2 hover:bg-gray-100 rounded-full">
+                <i class="ri-notification-3-line text-xl"></i></button>
+            </button>
+            <button class="ml-2 w-8 h-8 bg-purple-600 rounded-full text-white font-semibold">
+                R
+            </button>
+        </div>
+    </header>
+
+    <div class="flex pt-14">
+        <aside class="fixed left-0 top-14 w-60 bg-white overflow-y-auto py-6">
+            <nav class="space-y-1">
+                <a href="#" class="flex items-center gap-6 px-6 py-2 bg-gray-100">
+                    <i class="ri-home-4-fill text-xl"></i>
+                    <span class="text-sm font-medium">Inicio</span>
+                </a>
+                <a href="#" class="flex items-center gap-6 px-6 py-2 hover:bg-gray-100">
+                    <i class="ri-compass-3-fill text-xl"></i>
+                    <span class="text-sm font-medium">Explorar</span>
+                </a>
+                <a href="#" class="flex items-center gap-6 px-6 py-2 hover:bg-gray-100">
+                    <i class="ri-play-list-2-fill text-xl"></i>
+                    <span class="text-sm font-medium">Incrições</span>
+                </a>
+                <hr class="mx-6 my-3 text-gray-200">
+                <a href="#" class="flex items-center gap-6 px-6 py-2 hover:bg-gray-100">
+                    <i class="ri-history-line text-xl"></i>
+                    <span class="text-sm font-medium">Historico</span>
+                </a>
+                <a href="#" class="flex items-center gap-6 px-6 py-2 hover:bg-gray-100">
+                    <i class="ri-time-line text-xl"></i>
+                    <span class="text-sm font-medium">Assistir mais tarde</span>
+                </a>
+                <a href="#" class="flex items-center gap-6 px-6 py-2 hover:bg-gray-100">
+                    <i class="ri-thumb-up-line text-xl"></i>
+                    <span class="text-sm font-medium">Videos marcados</span>
+                </a>
+                <hr class="mx-6 my-3 text-gray-200">
+                <h3 class="px-6 py-2 text-sm font-medium text-gray-900">Incrições</h3>
+                    <a href="#" class="flex items-center gap-6 px-6 py-2 hover:bg-gray-100">
+                    <div class="w-6 h-6 bg-red-500 rounded-full"></div>
+                    <span class="text-sm font-medium">biribim</span>
+                    </a>
+                    <a href="#" class="flex items-center gap-6 px-6 py-2 hover:bg-gray-100">
+                    <div class="w-6 h-6 bg-green-500 rounded-full"></div>
+                    <span class="text-sm font-medium">tico-tico</span>
+                    </a>
+                    <a href="#" class="flex items-center gap-6 px-6 py-2 hover:bg-gray-100">
+                    <div class="w-6 h-6 bg-yellow-500 rounded-full"></div>
+                    <span class="text-sm font-medium">Xablau</span>
+                    </a>
+            </nav>
+        </aside>
+
+        <main class="flex-1 ml-60 p-6">
+            <div class="flex gap-3 mb-6 overflow-x-auto pb-2 pt-4">
+                <button class="px-3 py-1 bg-gray-900 text-white rounded-lg text-sm whitespace-nowrap">Tudo</button>
+                <button class="px-3 py-1 bg-gray-100 text-black rounded-lg text-sm whitespace-nowrap">Musica</button>
+                <button class="px-3 py-1 bg-gray-100 text-black rounded-lg text-sm whitespace-nowrap">Filmes</button>
+                <button class="px-3 py-1 bg-gray-100 text-black rounded-lg text-sm whitespace-nowrap">Jogos</button>
+                <button class="px-3 py-1 bg-gray-100 text-black rounded-lg text-sm whitespace-nowrap">Programação</button>
+                <button class="px-3 py-1 bg-gray-100 text-black rounded-lg text-sm whitespace-nowrap">Podcast</button>
+                <button class="px-3 py-1 bg-gray-100 text-black rounded-lg text-sm whitespace-nowrap">Culinaria</button>
+                <button class="px-3 py-1 bg-gray-100 text-black rounded-lg text-sm whitespace-nowrap">Noticias</button>
+                <button class="px-3 py-1 bg-gray-100 text-black rounded-lg text-sm whitespace-nowrap">Esportes</button>
+            </div>
+            <div class="grid grid-cols-4 gap-4" id="videos">
+
+            </div>
+        </main>
+    </div>
+</body>
+<script>
+    const videos = [
+        {title:"Curso de HTML",channel:"Rodolfo", views:"130mil",time:"há 2 dias", durations:"10:34", color:"red", isLive:false},
+        {title:"Curso de Java",channel:"Dev em dobro", views:"86mil",time:"há 10 dias", durations:"1:02:00", color:"red", isLive:false},
+        {title:"Rpg",channel:"caverna do dragão", views:"5mil",time:"há 4 dias", durations:"15:12", color:"red", isLive:false},
+        {title:"Curso de javascript",channel:"Miguel dev", views:"1mil",time:"há 8 dias", durations:"22:51", color:"red", isLive:false},
+        {title:"Desenvolvimento em  N8N",channel:"Desenvolvidor", views:"75mil",time:"há 20 dias", durations:"1:28:12", color:"red", isLive:false},
+        {title:"Nas - Illumatic",channel:"Nas", views:"900mil",time:"há 11 anos", durations:"4:34", color:"red", isLive:false},
+        {title:"A biblia por Cid Moreira",channel:"Igreja", views:"532mil",time:"há 7 anos", durations:"24:12:08", color:"red", isLive:false},
+        {title:"Saga jogos mortais",channel:"Peewee", views:"540mil",time:"há 6 messes", durations:"54:02", color:"red", isLive:false},
+        {title:"Super mario",channel:"Nintendo", views:"342mil",time:"há 27 dias", durations:"2:34", color:"red", isLive:false},
+        {title:"Batman begins completo em portugue",channel:"Filmes online", views:"682mil",time:"há 3 messes", durations:"2:10:34", color:"red", isLive:false},
+        {title:"Metados",channel:"desnvolvimento", views:"23mil",time:"há 4 anos", durations:"1:57:12", color:"red", isLive:false},
+        {title:"Torneio de sinuca",channel:"Sinuca online", views:"680mil",time:"há 7 dias", durations:"1:22:09", color:"red", isLive:false},
+    ];
+
+    const container = document.getElementById("videos")
+
+    videos.forEach((video, i) => {
+        const videoCard = document.createElement('article');
+
+        videoCard.className = 'cursor-pointer'
+
+        videoCard.innerHTML = `
+        <div class="relative bg-gray-200 rounded-xl overflow-hidden">
+            <img src="https://picsum.photos/200/180?random=${i} class="w-full h-full object-cover">
+            <span class="absolute bottom-2 right-2 bg-black bg-opacity-80 text-white text-xs px-1 rounded">${video.durations}</span>
+        </div>
+        <div class="flex gap-3 mt-3">
+            <div>
+                <h3 class="font-medium text-sm">${video.title}</h3>
+                <p class="text-sm text-gray-600 mt-1">${video.channel}</p>
+                <p class="text-sm text-gray-600">${video.views}</p>
+            </div>
+        </div>
+        `
+
+        container.appendChild(videoCard)
+    })
+
+</script>
+</html>
